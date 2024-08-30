@@ -2,17 +2,17 @@
  * @Author: LiBaoDeng libdqd_happy2020@163.com
  * @Date: 2024-08-27 17:19:02
  * @LastEditors: LiBaoDeng libdqd_happy2020@163.com
- * @LastEditTime: 2024-08-30 15:39:02
+ * @LastEditTime: 2024-08-30 17:05:42
  * @FilePath: \BaoYee\.vuepress\config.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 module.exports = { 
-  title: "BaoYee文书笔记",
+  title: "代码康德",
   description: 'BaoYee专属个人博客',
-  base:'/vuepress/',
+  base:'/BaoYee/',
   dest: 'dist',
   head: [
-    ['link', { rel: 'icon', href: '/vuepress/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/BaoYee/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   theme: 'reco',
@@ -66,7 +66,7 @@ module.exports = {
         link: 'https://vuepress-theme-reco.recoluan.com'
       },
     ],
-    logo: '/logo.png',
+    logo: '/warrior.png',
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
@@ -77,7 +77,7 @@ module.exports = {
     // 作者
     author: 'BaoYee',
     // 作者头像
-    authorAvatar: '/avatar.png',
+    authorAvatar: '/headLogo.png',
     // 备案号
     record: 'xxxx',
     // 项目开始时间
