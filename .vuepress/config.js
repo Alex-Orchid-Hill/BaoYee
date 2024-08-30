@@ -2,17 +2,17 @@
  * @Author: LiBaoDeng libdqd_happy2020@163.com
  * @Date: 2024-08-27 17:19:02
  * @LastEditors: LiBaoDeng libdqd_happy2020@163.com
- * @LastEditTime: 2024-08-30 13:34:47
+ * @LastEditTime: 2024-08-30 15:39:02
  * @FilePath: \BaoYee\.vuepress\config.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
-module.exports = {
+module.exports = { 
   title: "BaoYee文书笔记",
   description: 'BaoYee专属个人博客',
   base:'/vuepress/',
   dest: 'dist',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/vuepress/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   theme: 'reco',
