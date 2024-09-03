@@ -2,7 +2,7 @@
  * @Author: LiBaoDeng libdqd_happy2020@163.com
  * @Date: 2024-08-27 17:19:02
  * @LastEditors: LiBaoDeng libdqd_happy2020@163.com
- * @LastEditTime: 2024-08-30 17:05:42
+ * @LastEditTime: 2024-09-03 14:15:02
  * @FilePath: \BaoYee\.vuepress\config.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -18,29 +18,37 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
-      { text: 'Docs', 
+      { text: '首页', link: '/', icon: 'reco-home' },
+      { text: '时间线', link: '/timeline/', icon: 'reco-date' },
+      { text: 'Spring', 
         icon: 'reco-message',
         items: [
-          { text: 'vuepress-reco', link: '/docs/theme-reco/' }
+          { text: 'SpringBase', link: '/spring/base/' },
+          { text: 'SpringBoot', link: '/spring/SpringBoot/' },
         ]
       },
-      { text: 'Contact', 
+      { text: '联系关注', 
         icon: 'reco-message',
         items: [
-          { text: 'Gitee', link: 'https://gitee.com/iamsupercool', icon: 'reco-github' }
+          { text: '公众号：代码康德',link:'https://gitee.com/lbdis100good' },
+          { text: '企鹅号：紫来峰', link: 'https://media.om.qq.com/author?id=MK3Sds3kXmobSVfU85zsWA3g0' },
+          { text: 'WaterDrops', link: 'https://gitee.com/lbdis100good', icon: 'reco-gitee' },
+          { text: 'Alex-Orchid-Hill', link: 'https://github.com/Alex-Orchid-Hill', icon: 'reco-github' }
         ]
       }
     ],
     sidebar: {
-      '/docs/theme-reco/': [
-        '',
-        'theme',
-        'plugin',
-        'api'
-      ]
-    },  
+      '/spring/base/':[
+        ['AOP','AOP'],
+        ['DI-Basics','DI-Basics'],
+        ['DI-Container','DI-Container'],
+        ['Spring-Resources','Spring-Resources'],
+      ],
+      '/spring/SpringBoot/':[
+        ['1','1'],
+        ['2','2'],
+      ],
+    },
     type: 'blog',
     // 博客设置
     blogConfig: {
@@ -66,7 +74,7 @@ module.exports = {
         link: 'https://vuepress-theme-reco.recoluan.com'
       },
     ],
-    logo: '/warrior.png',
+    logo: '/head.jpg',
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
@@ -77,7 +85,7 @@ module.exports = {
     // 作者
     author: 'BaoYee',
     // 作者头像
-    authorAvatar: '/headLogo.png',
+    authorAvatar: '/author.jpg',
     // 备案号
     record: 'xxxx',
     // 项目开始时间
