@@ -2,7 +2,7 @@
  * @Author: LiBaoDeng libdqd_happy2020@163.com
  * @Date: 2024-08-27 17:19:02
  * @LastEditors: LiBaoDeng libdqd_happy2020@163.com
- * @LastEditTime: 2024-09-03 14:15:02
+ * @LastEditTime: 2024-09-25 15:52:14
  * @FilePath: \BaoYee\.vuepress\config.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -20,6 +20,13 @@ module.exports = {
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
       { text: '时间线', link: '/timeline/', icon: 'reco-date' },
+      { text: 'Java书籍知识', 
+        icon: 'reco-message',
+        items: [
+          { text: 'Head First Java', link: '/Head First Java/' },
+          { text: '算法图解', link: '/Algorithm Diagram/' },
+        ]
+      },
       { text: 'Spring', 
         icon: 'reco-message',
         items: [
@@ -38,6 +45,9 @@ module.exports = {
       }
     ],
     sidebar: {
+      '/Head First Java/':[
+        ['The Statck and the Heap','The Statck and the Heap'],
+      ],
       '/spring/base/':[
         ['AOP','AOP'],
         ['DI-Basics','DI-Basics'],
