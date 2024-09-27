@@ -2,7 +2,7 @@
  * @Author: LiBaoDeng libdqd_happy2020@163.com
  * @Date: 2024-08-27 17:19:02
  * @LastEditors: LiBaoDeng libdqd_happy2020@163.com
- * @LastEditTime: 2024-09-25 15:52:14
+ * @LastEditTime: 2024-09-27 17:00:39
  * @FilePath: \BaoYee\.vuepress\config.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -12,7 +12,7 @@ module.exports = {
   base:'/BaoYee/',
   dest: 'dist',
   head: [
-    ['link', { rel: 'icon', href: '/BaoYee/favicon.ico' }],
+    ['link', { rel: 'icon', href: 'favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   theme: 'reco',
@@ -47,6 +47,9 @@ module.exports = {
     sidebar: {
       '/Head First Java/':[
         ['The Statck and the Heap','The Statck and the Heap'],
+      ],
+      '/Algorithm Diagram/':[
+        ['排序算法','排序算法'],
       ],
       '/spring/base/':[
         ['AOP','AOP'],
