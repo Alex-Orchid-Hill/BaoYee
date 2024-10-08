@@ -2,7 +2,7 @@
  * @Author: LiBaoDeng libdqd_happy2020@163.com
  * @Date: 2024-08-27 17:19:02
  * @LastEditors: LiBaoDeng libdqd_happy2020@163.com
- * @LastEditTime: 2024-09-27 17:00:39
+ * @LastEditTime: 2024-10-08 10:42:52
  * @FilePath: \BaoYee\.vuepress\config.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -19,7 +19,6 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
-      { text: '时间线', link: '/timeline/', icon: 'reco-date' },
       { text: 'Java书籍知识', 
         icon: 'reco-message',
         items: [
@@ -34,6 +33,7 @@ module.exports = {
           { text: 'SpringBoot', link: '/spring/SpringBoot/' },
         ]
       },
+      { text: '时间线', link: '/timeline/', icon: 'reco-date' },
       { text: '联系关注', 
         icon: 'reco-message',
         items: [
@@ -69,10 +69,6 @@ module.exports = {
         location: 2, // 在导航栏菜单中所占的位置，默认2
         text: '知识库' // 默认 “分类”
       },
-      tag: {
-        location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: 'Tag' // 默认 “标签”
-      }
     },
     friendLink: [
       {
